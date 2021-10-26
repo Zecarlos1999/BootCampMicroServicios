@@ -1,0 +1,66 @@
+
+use BDBank-Client //crear base de datos
+
+db.createCollection("clients") //crear una coleccion
+
+db.clientes.insert({ 
+    "name": "Andres",
+    "lastname": "Lopez Garcia",
+    "documentType": "DNI",
+    "documentNumber": "70781213",
+    "Address": "Av. 9 de Diciembre",
+    "email": "anlopgar@everis.com",
+    "phone": "976156469",
+    "dayOfBirth":1999-11-26,
+    "clientType": "Personal"
+}) //crear un documento
+
+db.createCollection("products")
+
+db.productos.insert({
+    "productType": {
+        "bankAccounts": "Ahorro",
+        "credits": "Personal"
+    },
+    "commission": false,
+    "monthlyMovements": 1
+})
+
+db.collection.find("clientes").pretty() //listar documentos de la coleccion clientes
+
+db.collection.find("productos").pretty()
+
+db.clientes.update({"nombres": "Andres"}, { 
+    "nombres": "Andres",
+    "apellidos": "Lopez Garcia",
+    "Tipo de Documento": "DNI",
+    "N de Documento": "70781213",
+    "Direccion": "Av. 9 de Diciembre",
+    "Correo Electronico": "anlopgar@nttdata.com",
+    "Celular": "976156469",
+    "Fecha de Nacimiento":new Date(26/11/1999),
+    "Tipo de Cliente": "Personal"
+}) //modificar un documento
+
+db.clientes.update({"Comision": false}, {$set: {"saldo": 1000}}) //modificar un documento agregando un campo
+
+db.productos.insert({
+    "Tipo de Producto": {
+        "Cuentas Bancarias": "Ahorro",
+        "Creditos": "Empresarial"
+    },
+    "Comision": false,
+    "Movimientos Mensuales": 1
+})
+
+db.productos.remove({"Creditos": "Empresarial"}) //eliminar un documento
+
+
+
+Operaciones
+{
+    "Tipo de Cliente": ,
+    "Tipo de Producto": ,
+    "Fecha de Operacion": ,
+    "Cantidad": 
+}
