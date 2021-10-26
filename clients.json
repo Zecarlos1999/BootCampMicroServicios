@@ -1,0 +1,191 @@
+[{
+
+  "_id": {
+
+    "$oid": "617704cd83e715e069c99b2f"
+
+  },
+
+  "name": "Andres",
+
+  "lastName": "Lopez Garcia",
+
+  "documentType": "DNI",
+
+  "documentNumber": "70781213",
+
+  "address": "Av. 9 de Diciembre",
+
+  "email": alopez10047@gmail.com,
+
+  "phone": "976156469",
+
+  "dateofBirth": {
+
+    "$date": "1999-11-26T05:00:00Z"
+
+  },
+
+  "clientType": "Personal"
+
+},{
+
+  "_id": {
+
+    "$oid": "6177108083e715e069c99b31"dsds
+
+  },
+
+  "name": "Jose",
+
+  "lastName": "Perez Sanchez",
+
+  "documentType": "DNI",
+
+  "documentNumber": "12345678",
+
+  "address": "Av. 28 de Julio",
+
+  "email": jose.ps@gmail.com,
+
+  "phone": "987654321",
+
+  "dateofBirth": {
+
+    "$date": "1998-10-25T05:00:00Z"
+
+  },
+
+  "clientType": "Personal",
+
+  "_class": "com.bootCamp1.app.client.entity.Client"
+
+},{
+
+  "_id": {
+
+    "$oid": "61771dcaf5fb15666ce8ec5a"
+
+  },
+
+  "name": "Felix",
+
+  "lastName": "Vicente Cisneros",
+
+  "documentType": "DNI",
+
+  "documentNumber": "87654321",
+
+  "address": "Av. 13 de Mayo",
+
+  "email": felix.vicecis@gmail.com,
+
+  "phone": "964532189",
+
+  "dateofBirth": {
+
+    "$date": "1999-06-15T05:00:00Z"
+
+  },
+
+  "clientType": "Personal",
+
+  "_class": "com.bootCamp1.app.client.entity.Client"
+
+},{
+
+  "_id": {
+
+    "$oid": "6177267ff5fb15666ce8ec63"
+
+  },
+
+  "name": "Zecarlos",
+
+  "lastName": "Salcedo del Mazo",
+
+  "documentType": "DNI",
+
+  "documentNumber": "45673278",
+
+  "address": "Asuncion 8",
+
+  "email": zsalcedo@gmail.com,
+
+  "phone": "996746431",
+
+  "dateofBirth": {
+
+    "$date": "1999-07-29T05:00:00Z"
+
+  },
+
+  "clientType": "Personal",
+
+  "_class": "com.bootCamp1.app.client.entity.Client"
+
+},{
+
+  "_id": {
+
+    "$oid": "617731c6f5fb15666ce8ec64"
+
+  },
+
+  "name": "Pedro",
+
+  "lastName": "Rodriguez Arias",
+
+  "documentType": "DNI",
+
+  "documentNumber": "39285743",
+
+  "address": "Av. Las Margaritas",
+
+  "email": pedro.roar@gmail.com,
+
+  "phone": "975020457",
+
+  "dateofBirth": {
+
+    "$date": "1996-05-05T05:00:00Z"
+
+  },
+
+  "clientType": "Personal",
+
+  "_class": "com.bootCamp1.app.client.entity.Client"
+
+},{
+
+  "_id": {
+
+    "$oid": "617731fff5fb15666ce8ec65"
+
+  },
+
+  "name": "Sandro",
+
+ "lastName": "Quispe Salas",
+
+  "documentType": "DNI",
+
+  "documentNumber": "27589064",
+
+  "address": "Av. Las Flores",
+
+  "email": sandro.quisa@gmail.com,
+
+  "phone": "906363262",
+
+  "dateofBirth": {
+
+    "$date": "1997-12-01T05:00:00Z"
+
+  },
+
+  "clientType": "Personal",
+
+  "_class": "com.bootCamp1.app.client.entity.Client"
+
+}]
